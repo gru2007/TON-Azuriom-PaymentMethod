@@ -1,0 +1,14 @@
+{
+    "id": "ton",
+    "name": "TON",
+    "description": "TON платёжка",
+    "version": "1.0.0",
+    "url": "#",
+    "authors": [
+        "Gru"
+    ],
+    "providers": [
+        "\\Azuriom\\Plugin\\TON\\Providers\\TONServiceProvider"
+    ],
+    "azuriom_api": "1.0.0"
+}

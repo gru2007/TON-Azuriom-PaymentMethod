@@ -1,0 +1,11 @@
+{
+    "name": "azuriom/ton",
+    "type": "azuriom-plugin",
+    "description": "ton для магазина",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\TON\\": "src/"
+        }
+    }
+}
