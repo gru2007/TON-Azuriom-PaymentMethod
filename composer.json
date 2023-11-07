@@ -1,7 +1,7 @@
 {
     "name": "azuriom/ton",
     "type": "azuriom-plugin",
-    "description": "ton для магазина",
+    "description": "Add Toncoins to the shop's payment methods.",
     "license": "MIT",
     "autoload": {
         "psr-4": {

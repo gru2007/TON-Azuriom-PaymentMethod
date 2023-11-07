@@ -88,12 +88,12 @@ class TONMethod extends PaymentMethod
         return redirect()->route('shop.home')->with('success', trans('messages.status.success'));
     }
 
-    public function view()
+    public function view(): string
     {
         return 'ton::admin.ton';
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'address' => ['required', 'string'],

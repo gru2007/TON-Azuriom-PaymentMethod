@@ -14,7 +14,7 @@ class TONServiceProvider extends BasePluginServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register(): void
     {
         
     }
@@ -38,13 +38,8 @@ class TONServiceProvider extends BasePluginServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
-        if (! plugins()->isEnabled('shop')) {
-            logger()->warning('TON нужен плагин Shop для работы !');
-
-            return;
-        }
 
         $this->loadViews();
 

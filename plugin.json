@@ -1,14 +1,18 @@
 {
     "id": "ton",
-    "name": "TON",
-    "description": "TON платёжка",
-    "version": "1.0.0",
-    "url": "#",
+    "name": "Toncoin Payment",
+    "description": "Add Toncoins to the shop's payment methods.",
+    "version": "1.0.1",
+    "url": "https://market.azuriom.com/resources/128",
     "authors": [
         "Gru"
     ],
     "providers": [
         "\\Azuriom\\Plugin\\TON\\Providers\\TONServiceProvider"
     ],
-    "azuriom_api": "1.0.0"
+    "dependencies": {
+        "shop": "^1.0.0"
+    },
+    "azuriom_api": "1.0.0",
+    "apiId": 128
 }
